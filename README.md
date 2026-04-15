@@ -1,43 +1,45 @@
-# 📊 E-commerce Funnel Optimization & Revenue Leakage Analysis
+# E-commerce Funnel Analysis
 
-## 🚀 Overview
+## Overview
 
-Analyzed 100M+ user interactions to identify conversion issues and revenue leakage in an e-commerce funnel.
+In this project, I analyzed a large e-commerce dataset (100M+ records) to understand user behavior and identify where users drop off in the purchase funnel.
 
----
-
-## 🎯 Key Results
-
-* Conversion Rate: **~1.61%**
-* Massive drop from **view → purchase**
-* Identified major funnel inefficiencies
+The goal was to find why conversions are low and what can be improved.
 
 ---
 
-## 🛠️ Tech Stack
+## What I Did
+
+* Cleaned and processed large dataset using Python
+* Used SQL (DuckDB) to analyze user actions
+* Built a dashboard using Streamlit
+* Calculated key metrics like conversion rate and event distribution
+
+---
+
+## Key Findings
+
+* Conversion rate is around **1.6%**
+* Most users drop off between **view and purchase**
+* There is a large gap between user interest and final conversion
+
+---
+
+## Tools Used
 
 * Python (Pandas)
-* SQL (DuckDB)
+* DuckDB (SQL)
 * Streamlit
 
 ---
 
-## 📊 Features
-
-* Funnel analysis
-* Conversion tracking
-* SQL-based insights
-* Interactive dashboard
-
----
-
-## ▶️ Run Project
+## How to Run
 
 pip install -r requirements.txt
 python -m streamlit run dashboards/dashboard.py
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Ravuri Vinay
