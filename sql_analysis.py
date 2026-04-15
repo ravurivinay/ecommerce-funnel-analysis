@@ -1,7 +1,7 @@
 import streamlit as st
 import duckdb
 
-st.title("📊 E-commerce Analytics Dashboard (SQL Powered)")
+st.title(" E-commerce Analytics Dashboard (SQL Powered)")
 
 # Query data using SQL
 query = """
